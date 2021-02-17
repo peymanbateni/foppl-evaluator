@@ -1,0 +1,4 @@
+(let [z (sample (uniform 0 1))
+	  mu (if (< z 0.1) -1 1)]
+	  (sample (normal mu (sqrt 0.09)))
+)
